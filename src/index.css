@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&display=swap");
 
 body {
   margin: 0;
   overflow-x: hidden;
-  font-family: "League Spartan", sans-serif;
+  font-family: "Aleo", serif;
 }
 
 @media (min-width: 320px) {
@@ -37,11 +38,37 @@ body {
     margin: 1rem 1.25rem;
     text-align: center;
     line-height: 1.15;
+    color: #7f4150;
   }
 
   .bottom-caption {
     padding-top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bottom-caption p {
+    font-size: 1.25rem;
+    padding-bottom: 5px;
+    font-weight: 500;
+    border-bottom: 1.75px solid #7f4150;
+  }
+
+  .footer-base {
+    padding: 11.555px 0px;
+    background-color: #1c1c1c;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+
+  .text-bottom {
+    font-family: "League Spartan", sans-serif;
+    margin: 0;
+    color: #ffffff;
   }
 }
 
@@ -102,6 +129,12 @@ body {
   }
 }
 
+@media (min-width: 1440px) {
+  .w-text {
+    top: 41.99%;
+  }
+}
+
 @media (min-width: 1560px) {
   .w-text {
     top: 48.99%;
@@ -120,30 +153,29 @@ body {
   }
 }
 
-@media (min-width: 1700px){
+@media (min-width: 1700px) {
   .w-text {
     top: 44.99%;
   }
 }
 
-@media (min-width: 1800px){
+@media (min-width: 1800px) {
   .w-text {
-    top: 42.19%;
+    top: 36.19%;
   }
 }
 
-
-@media(min-width: 1920px){
-  .w-flex{
+@media (min-width: 1920px) {
+  .w-flex {
     width: 800px;
     height: 800px;
   }
 
   .w-text {
-    top: 60.99%;
+    top: 54.99%;
   }
 
-  .section-base p{
+  .section-base p {
     font-size: 1.5rem;
     margin-top: 0;
     bottom: 10.75rem;

@@ -1,5 +1,6 @@
 import logo from "./assets/img/main-gif.gif";
 import text from "./assets/img/text.png";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <article className="bottom-caption relative">
         <p>Coming Soon</p>
       </article>
+      <Footer />
     </div>
   );
 }

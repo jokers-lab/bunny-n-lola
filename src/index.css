@@ -16,7 +16,7 @@ body {
   }
 
   .w-flex {
-    width: 300px;
+    max-width: 100%;
     height: auto;
   }
 
@@ -39,17 +39,16 @@ body {
     line-height: 1.15;
   }
 
-  article.bottom-caption {
+  .bottom-caption {
     padding-top: 3rem;
     text-align: center;
   }
 }
 
 @media (min-width: 768px) {
-
   .w-flex {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
   }
 
   .section-base {
@@ -68,16 +67,18 @@ body {
   }
 
   .w-text {
-    width: 300px;
+    max-width: 100%;
     height: auto;
     position: absolute;
-    top: 51.99%;
+    top: 49.99%;
   }
 
   .section-base p {
     position: relative;
     bottom: 7.125rem;
     color: #7f4150;
+    margin-top: 1.75rem;
+    margin-bottom: 0;
   }
 
   .bottom-caption {
@@ -85,6 +86,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 10px;
   }
 
   .relative {
@@ -98,5 +100,60 @@ body {
     font-weight: 500;
     border-bottom: 1.75px solid #7f4150;
   }
-  
+}
+
+@media (min-width: 1560px) {
+  .w-text {
+    top: 48.99%;
+  }
+
+  .section-base p {
+    position: relative;
+    bottom: 6.75rem;
+    color: #7f4150;
+    margin-top: 1.75rem;
+    margin-bottom: 0;
+  }
+
+  .bottom-caption {
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: 1700px){
+  .w-text {
+    top: 44.99%;
+  }
+}
+
+@media (min-width: 1800px){
+  .w-text {
+    top: 42.19%;
+  }
+}
+
+
+@media(min-width: 1920px){
+  .w-flex{
+    width: 800px;
+    height: 800px;
+  }
+
+  .w-text {
+    top: 60.99%;
+  }
+
+  .section-base p{
+    font-size: 1.5rem;
+    margin-top: 0;
+    bottom: 10.75rem;
+  }
+
+  .bottom-caption {
+    padding-top: 0;
+  }
+
+  .relative {
+    bottom: 5.5rem;
+  }
 }

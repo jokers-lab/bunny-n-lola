@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "League Spartan", sans-serif;
+}
+
+/* .w-flex {
+  width: 600px;
+  height: 600px;
+}
+
+.section-base {
+  display: flex;
+  flex-direction: column;
+  width: 100% !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-base {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./assets/img/background.jpg);
+  background-size: cover;
+}
+
+.w-text {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  top: 51.99%;
+}
+
+.section-base p {
+  position: relative;
+  bottom: 7.125rem;
+  color: #7f4150;
+}
+
+.bottom-caption {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.relative {
+  position: relative;
+  bottom: 4.9rem;
+}
+
+.bottom-caption p {
+  font-size: 1.25rem;
+  padding-bottom: 5px;
+  font-weight: 500;
+  border-bottom: 1.75px solid #7f4150;
+} */
+
+@media (min-width: 320px) {
+  .bg-base {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .w-flex {
+    width: 300px;
+    height: auto;
+  }
+
+  img.w-text {
+    width: 280px;
+    height: auto;
+  }
+
+  section.section-base {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-base p {
+    font-size: 1rem;
+    margin: 1rem 1.25rem;
+    text-align: center;
+    line-height: 1.15;
+  }
+
+  article.bottom-caption {
+    padding-top: 3rem;
+    text-align: center;
+  }
+}
+

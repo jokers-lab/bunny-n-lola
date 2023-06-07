@@ -1,4 +1,4 @@
-import logo from "./assets/img/main-gif.gif";
+import logo from "./assets/img/updated-gif.gif";
 import text from "./assets/img/text.png";
 import Footer from "./components/Footer";
 

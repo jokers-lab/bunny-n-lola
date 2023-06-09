@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div className="footer-base">
-      <p className="text-bottom">Powered by Candy Factory - Cyber Lab</p>
+      <a href="http://www.candyfactorylk.com/" className="text-bottom">Powered by Candy Factory - Cyber Lab</a>
     </div>
   )
 }

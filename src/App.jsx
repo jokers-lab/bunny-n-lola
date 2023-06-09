@@ -13,7 +13,7 @@ function App() {
         </p>
       </section>
       <article className="bottom-caption relative">
-        <p>Coming Soon</p>
+        <a href="http://www.candyfactorylk.com/">Coming Soon</a>
       </article>
       <Footer />
     </div>

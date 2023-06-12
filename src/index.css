@@ -16,6 +16,11 @@ body {
     background-size: cover;
   }
 
+  .link_cls {
+    color: #1c1c1c;
+    text-decoration: none;
+  }
+
   .w-flex {
     max-width: 100%;
     height: auto;
@@ -47,13 +52,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
-  .bottom-caption p {
-    font-size: 1.25rem;
-    padding-bottom: 5px;
-    font-weight: 500;
-    border-bottom: 1.75px solid #7f4150;
   }
 
   .footer-base {

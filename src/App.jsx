@@ -1,5 +1,4 @@
-import logo from "./assets/img/updated-gif.gif";
-import text from "./assets/img/text.png";
+import logo from "./assets/video/bnl_loop.gif";
 import Footer from "./components/Footer";
 
 function App() {
@@ -7,13 +6,9 @@ function App() {
     <div className="main bg-base">
       <section className="section-base">
         <img src={logo} alt="" className="w-flex" />
-        <img src={text} alt="" className="w-text" />
-        <p>
-          A World of <b>Elephant Hugs</b> and <b>Bunny Smiles!</b>
-        </p>
       </section>
       <article className="bottom-caption relative">
-        <a href="http://www.candyfactorylk.com/">Coming Soon</a>
+        <a href="http://www.candyfactorylk.com/" className="link_cls">Coming Soon</a>
       </article>
       <Footer />
     </div>

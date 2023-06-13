@@ -16,9 +16,19 @@ body {
     background-size: cover;
   }
 
+  .img-background-gif {
+    padding-top: 0;
+    width: 100%;
+    height: 320px;
+    background-image: url("./assets/video/bnl_loop.gif");
+    background-position: center;
+    background-size: cover;
+  }
+
   .link_cls {
     color: #1c1c1c;
     text-decoration: none;
+    font-size: 1.25rem;
   }
 
   .w-flex {
@@ -71,10 +81,76 @@ body {
   }
 }
 
+@media (min-width: 360px){
+  .section-base {
+    padding-top: 5.45rem;
+  }
+
+  .img-background-gif {
+    height: 360.555px;
+  }
+}
+
+@media (min-width: 375px) {
+  .section-base {
+    padding-top: 0%;
+  }
+
+  .img-background-gif {
+    height: 375px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 390px) {
+  .section-base {
+    padding-top: 0rem;
+  }
+
+  .img-background-gif {
+    height: 390.555px;
+  }
+}
+
+@media (min-width: 412px) {
+  .section-base {
+    padding-top: 0.75rem;
+  }
+
+  .img-background-gif {
+    height: 415px;
+  }
+}
+
+@media (min-width: 600px){
+  .img-background-gif {
+    padding-top: 1rem;
+    width: 100%;
+    height: 320px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 425px) {
+  .section-base {
+    padding-top: 0;
+  }
+
+  .img-background-gif {
+    height: 420px;
+  }
+}
+
 @media (min-width: 768px) {
-  .w-flex {
-    width: 480px;
-    height: 480px;
+  .section-base {
+    padding-top: 0;
+  }
+
+  .img-background-gif {
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 
   .bg-base {
@@ -116,6 +192,12 @@ body {
     font-weight: 500;
     text-decoration: none;
     color: #1c1c1c;
+  }
+}
+
+@media (min-width: 912px){
+  .img-background-gif {
+    max-width: 915px;
   }
 }
 

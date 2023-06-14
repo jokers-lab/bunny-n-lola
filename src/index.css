@@ -11,9 +11,9 @@ body {
   .bg-base {
     width: 100%;
     height: 100vh;
-    background-image: url(./assets/img/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("./assets/img/background-xs.png");
+    background-size: contain;
+    background-position: top;
   }
 
   .relative-y {
@@ -130,6 +130,14 @@ body {
     padding-top: 0;
   }
 
+  .bg-base {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .img-background-gif {
     padding-top: 0;
     width: 100%;
@@ -184,7 +192,7 @@ body {
 
 @media (min-width: 912px) {
   .relative-y {
-    top: 0;
+    top: 15.555rem;
   }
 
   .img-background-gif {
@@ -195,6 +203,12 @@ body {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 1024px) {
+  .relative-y {
+    top: 4.555rem;
   }
 }
 
@@ -209,14 +223,9 @@ body {
 }
 
 @media (min-width: 1560px) {
-  .section-base p {
-    position: relative;
-    bottom: 6.75rem;
-    color: #7f4150;
-    margin-top: 1.75rem;
-    margin-bottom: 0;
+  .relative-y{
+    top: 9.85rem;
   }
-
   .bottom-caption {
     padding-top: 2.75rem;
   }
